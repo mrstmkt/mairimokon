@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">まいりもこん</string>
+    <string name="select_menu">リモコン選択</string>
+    <string name="loaddata_menu">データ取り込み</string>
+    <string name="deleltedata_menu">データ削除</string>
+    <string name="loaddata_error_message">リモコンデータの読み込みに失敗しました。</string>
+    <string name="loaddata_nodata_message">リモコンデータが読み込まれていません。</string>
+    <string name="fatal_message">異常終了しました。</string>
+    <string name="selectdata_dialog_title">リモコンを選択してください。</string>
+    <string name="deletedata_dialog_title">削除するリモコンを選択してください。</string>
+    <string name="datafileselect_dialog_title">データファイルを選択してください。</string>
+    <string name="datasaving_dialog_message">データ保存中です。</string>
+    <string name="loading_message">読込中です。</string>
+    <string name="deleting_message">削除中です。</string>
+    <string name="searchfile_message">データファイル検索中</string>
+    <string name="intent_package_main">jp.morishi.mairimokon</string>
+    <string name="intent_package_rimokon">jp.morishi.mairimokon</string>
+    <string name="intent_classname_main">jp.morishi.mairimokon.Main</string>
+    <string name="intent_classname_rimokon">jp.morishi.mairimokon.MaiRimokonActivity</string>
+</resources>

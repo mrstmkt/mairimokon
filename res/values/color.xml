@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_default">#FFFFFF</color>
+    <color name="default_pressed">#8FFFFFFF</color>
+    <color name="blue_default">#0000FF</color>
+    <color name="blue_pressed">#8F0000FF</color>
+    <color name="red_default">#FF0000</color>
+    <color name="red_pressed">#8FFF0000</color>
+    <color name="green_default">#00FF00</color>
+    <color name="green_pressed">#8F00FF00</color>
+    <color name="yellow_default">#FFFF00</color>
+    <color name="yellow_pressed">#8FFFFF00</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="left_rimokon_theme">
+		<item name="android:windowAnimationStyle">@style/left_rimokon_activity</item>
+    </style>
+    <style name="right_rimokon_theme">
+		<item name="android:windowAnimationStyle">@style/right_rimokon_activity</item>
+    </style>
+    <style name="stay_rimokon_theme">
+		<item name="android:windowAnimationStyle">@style/stay_rimokon_activity</item>
+    </style>
+ </resources>
