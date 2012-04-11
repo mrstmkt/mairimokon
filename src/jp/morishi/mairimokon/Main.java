@@ -134,17 +134,29 @@ public class Main extends Activity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
     	
-    	switch(item.getItemId())
+//    	switch(item.getItemId())
+//    	{
+//    	case R.id.loaddata_item:
+//    		startDataPicker();
+//    		break;
+//    	case R.id.selectdata_Item:
+//    		selectRimokonData();
+//    		break;
+//    	case R.id.deletedata_item:
+//    		deleteRimokonData();
+//    		break;
+//    	}
+    	if(item.getItemId() == R.id.loaddata_item)
     	{
-    	case R.id.loaddata_item:
     		startDataPicker();
-    		break;
-    	case R.id.selectdata_Item:
+    	}
+    	else if(item.getItemId() == R.id.selectdata_Item)
+    	{
     		selectRimokonData();
-    		break;
-    	case R.id.deletedata_item:
+    	}
+    	else if(item.getItemId() == R.id.deletedata_item)
+    	{
     		deleteRimokonData();
-    		break;
     	}
     	return super.onOptionsItemSelected(item);
     }

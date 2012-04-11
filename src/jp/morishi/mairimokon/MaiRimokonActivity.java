@@ -125,17 +125,29 @@ public class MaiRimokonActivity extends Activity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
     	
-    	switch(item.getItemId())
+//    	switch(item.getItemId())
+//    	{
+//    	case R.id.loaddata_item:
+//    		sendSelectMenuIntent(IntentData.COMMAND_LOADDATA);
+//    		break;
+//    	case R.id.selectdata_Item:
+//    		sendSelectMenuIntent(IntentData.COMMAND_SELECTDATA);
+//    		break;
+//    	case R.id.deletedata_item:
+//    		sendSelectMenuIntent(IntentData.COMMAND_DELETEDATA);
+//    		break;
+//    	}
+    	if(item.getItemId() == R.id.loaddata_item)
     	{
-    	case R.id.loaddata_item:
     		sendSelectMenuIntent(IntentData.COMMAND_LOADDATA);
-    		break;
-    	case R.id.selectdata_Item:
+    	}
+    	else if(item.getItemId() == R.id.selectdata_Item)
+    	{
     		sendSelectMenuIntent(IntentData.COMMAND_SELECTDATA);
-    		break;
-    	case R.id.deletedata_item:
+    	}
+    	else if(item.getItemId() == R.id.deletedata_item)
+    	{
     		sendSelectMenuIntent(IntentData.COMMAND_DELETEDATA);
-    		break;
     	}
     	return super.onOptionsItemSelected(item);
     }
